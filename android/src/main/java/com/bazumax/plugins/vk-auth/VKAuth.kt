@@ -43,7 +43,6 @@ class VKAuth : Plugin() {
                 putExtras(params.toExtraBundle())
             }
             startActivityForResult(call, intent, "vkLoginResult")
-            startActivityForResult(call, intent, "vkLoginResult")
         } else {
             val intent = Intent(activity, VKWebViewAuthActivity::class.java)
                     .putExtra(VKWebViewAuthActivity.VK_EXTRA_AUTH_PARAMS, params.toBundle())

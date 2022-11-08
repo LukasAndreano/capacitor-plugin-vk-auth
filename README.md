@@ -3,11 +3,11 @@
 ## Install
 Use Yarn
 ```
-yarn add capacitor-plugin-vk-auth
+yarn add @lukasandreano/capacitor-vk-auth
 ```
 Use NPM
 ```
-npm install capacitor-plugin-vk-auth --save
+npm i @lukasandreano/capacitor-vk-auth
 ```
 
 ## Using

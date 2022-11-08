@@ -1,6 +1,6 @@
 {
-  "name": "capacitor-plugin-vk-auth",
-  "version": "3.0.1",
+  "name": "@lukasandreano/capacitor-vk-auth",
+  "version": "3.0.2",
   "description": "VK Authentication with capacitor",
   "main": "dist/plugin.js",
   "module": "dist/esm/index.js",
@@ -15,7 +15,7 @@
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "BazuMax Studio (Maxim Bazuev)",
+  "author": "Nikita Balin (koka team)",
   "license": "MIT",
   "devDependencies": {
     "@capacitor/android": "^3.0.0-rc.0",
